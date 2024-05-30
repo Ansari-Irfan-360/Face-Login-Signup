@@ -44,7 +44,7 @@ const Login = () => {
       if (detections.length > 0) {
         const descriptors = detections[0].descriptor;
         try {
-          const res = await axios.post(`http://localhost:9000/api/user/login`, {
+          const res = await axios.post(`https://face-login-signup.onrender.com/api/user/login`, {
             descriptors: Object.values(descriptors),
           });
           localStorage.setItem("user", JSON.stringify(res.data));
