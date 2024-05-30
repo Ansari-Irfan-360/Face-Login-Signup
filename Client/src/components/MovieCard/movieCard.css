@@ -1,0 +1,47 @@
+.moviecard {
+    width: 250px;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    box-shadow: 0 3px 10px 0 #aaa;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: 1px solid gray;
+}
+
+.moviecard img {
+    /* margin: 0px 10px; */
+    width: 245px;
+    /* border: 1px solid red; */
+    height: 340px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px 0px;
+    /* display:block; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+.column2 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 15px;
+}
+
+.year{
+    color: red;
+}
+.movie {
+    color: green;
+}

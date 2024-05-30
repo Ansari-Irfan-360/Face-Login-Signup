@@ -1,0 +1,125 @@
+.register {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background: url('https://res.cloudinary.com/ddv2p9obt/image/upload/v1711984680/login-bg_zs2ylu.png');
+    /* background-color: blue; */
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
+}
+
+.img {
+    min-width: 0px;
+    min-height: 0px;
+    max-width: 300px;
+    max-height: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.container {
+    border-radius: 5px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    /* color: gray; */
+}
+
+.form {
+    width: 300px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    position: relative;
+    margin-inline: 1.5rem;
+    background-color: hsla(0, 0%, 100%, .01);
+    border: 2px solid hsla(0, 0%, 100%, .7);
+    padding: 2.5rem 1rem;
+    color: var(--white-color);
+    border-radius: 1rem;
+    backdrop-filter: blur(16px);
+}
+
+.input1 {
+    border: 1px solid white;
+    padding: 10px;
+    background: transparent;
+    border-radius: 5px;
+    color:white;
+}
+
+::placeholder {
+    color: white;
+}
+
+button {
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    background-color: #5e55d2;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+    color: white;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.webcam {
+    border: 2px solid #5e55d2;
+    border-radius: 50px;
+    object-fit: cover;
+}
