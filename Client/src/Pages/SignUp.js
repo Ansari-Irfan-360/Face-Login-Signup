@@ -52,7 +52,7 @@ const Signup = () => {
           };
         try {
           const res = await axios.post(
-            `https://face-login-signup.onrender.com/api/user/register`,
+            `https://face-login-signup-2.onrender.com/api/user/register`,
             inputs
           );
           setSuccess("Registration Successful");
