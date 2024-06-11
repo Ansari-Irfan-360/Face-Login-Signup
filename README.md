@@ -26,7 +26,7 @@ Face Login Signup is a novel way of authentication using facial recognition. It 
 - Secure authentication process
 - User-friendly interface
 
-- ## Demo
+## Demo
 
 Check out the [live demo](https://face-login-signup.vercel.app/) to see Face Login Signup in action!
 
