@@ -74,6 +74,8 @@ const Login = () => {
               width={300}
               height={300}
               className="webcam"
+              videoConstraints={{ facingMode: "user" }}
+              style={{ transform: "scaleX(-1)" }}
             />
             <button
               style={{
